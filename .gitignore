@@ -1,0 +1,6 @@
+# Repository .gitignore
+# Ignore local environment files
+.env
+Backend/.env
+
+# You can add other global ignores below
