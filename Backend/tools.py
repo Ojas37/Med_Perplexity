@@ -254,7 +254,7 @@ def search_jan_aushadhi(query_drug: str, medicine_database: Optional[List[Dict]]
 # ==========================================
 # 🧪 TEST AREA
 # ==========================================
-if _name_ == "_main_":
+if __name__ == "__main__":
     # Test 1: PubMed
     print("\n--- Testing PubMed ---")
     print(query_pubmed_realtime("Clopidogrel Omeprazole interaction"))
